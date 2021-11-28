@@ -14,7 +14,6 @@ const Home = ({navigation}) => {
         <Button marginTop={10} icon="arrow-right-bold" mode="contained" onPress={() => navigation.push('P1')}>Página 1</Button>
         <Button marginTop={10} icon="arrow-right-bold" mode="contained" onPress={() => navigation.push('P2')}>Página 2</Button>
         <Button marginTop={10} icon="arrow-right-bold" mode="contained" onPress={() => navigation.push('filmes/populares')}>Filmes</Button>
-        <Button marginTop={10} icon="arrow-right-bold" mode="contained" onPress={() => navigation.push('atores/detalhes')}>Atores</Button>
 
         <Card marginTop={10}>
           <Card.Cover source={{ uri: 'https://picsum.photos/700' }} />

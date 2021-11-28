@@ -44,6 +44,9 @@ const FilmesDetalhes = ({ navigation, route }) => {
             <Avatar.Icon size={50} icon="alert-octagon" />
     }
 
+    
+
+
     return (
         <ScrollView>
 
